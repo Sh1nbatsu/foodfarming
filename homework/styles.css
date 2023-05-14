@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/Image1.jpg);
+  background-repeat: no-repeat;
+  background-position: 80% 0;
+}
+
+header {
+  padding: 43px 0 43px 0;
+}
+
+.container {
+  width: 1264px;
+  margin: auto;
+}
+
+nav {
+  max-width: 470px;
+  padding-bottom: 43px;
+  border-bottom: 1px solid #c08d5d;
+  display: inline-block;
+}
+
+.navLogo {
+  max-height: 59px;
+  padding-right: 48px;
+}
+
+.navLink {
+  padding-left: 42px;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  vertical-align: 70%;
+  font-family: "Open Sans";
+  color: #000000;
+}
+
+.navLink:hover {
+  color: #c08d5d;
+}
+
+main {
+  padding: 122px 0 201px 0;
+}
+
+h1 {
+  font-family: "Yeseva One";
+  font-size: 70px;
+  line-height: 81px;
+  color: #3f4042;
+}
+
+main div h1 span:after {
+  content: url(./images/Logo.svg);
+  margin-left: 10px;
+}
+
+main div h1 span {
+  font-family: "Yeseva One";
+  font-size: 50px;
+  line-height: 58px;
+  display: block;
+}
+
+h1:after {
+  content: url(./images/Vector1.svg);
+  display: block;
+}
+
+.mainText {
+  display: block;
+  font-family: "Open Sans";
+  width: 535px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #3f4042;
+  margin-bottom: 72px;
+}
+
+.mainButton {
+  display: inline-block;
+  border: 2px #c08d5d solid;
+  font-family: "Open Sans";
+  font-size: 20px;
+  padding-left: 12px;
+  line-height: 62px;
+  text-decoration: none;
+  color: #3f4042;
+  margin-bottom: 100px;
+  letter-spacing: 2px;
+}
+
+.mainButton::after {
+  content: url();
+  background-image: url(./images/Vector2.svg);
+  background-color: #c08d5d;
+  background-repeat: no-repeat;
+  background-position: 50% 49%;
+  display: inline-block;
+  margin-left: 8px;
+  height: 62px;
+  width: 62px;
+  text-align: center;
+}
+
+.mainButton:hover {
+  display: inline-block;
+  border: 2px #7e5d3e solid;
+  font-family: "Open Sans";
+  font-size: 20px;
+  padding-left: 12px;
+  line-height: 62px;
+  text-decoration: none;
+  color: #3f4042;
+  margin-bottom: 100px;
+  letter-spacing: 2px;
+}
+
+.mainButton:hover::after {
+  content: url();
+  background-image: url(./images/Vector2.svg);
+  background-color: #7e5d3e;
+  background-repeat: no-repeat;
+  background-position: 50% 49%;
+  display: inline-block;
+  margin-left: 8px;
+  height: 62px;
+  width: 62px;
+  text-align: center;
+}
+
+.mouse {
+  display: block;
+  text-align: center;
+}
